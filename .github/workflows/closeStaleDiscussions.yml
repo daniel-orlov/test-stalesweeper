@@ -1,5 +1,8 @@
 name: Close Stale Discussions
 
+permissions:
+  discussions: read
+
 on:
   schedule:
     - cron: '0 0 * * *' # Runs every day at midnight UTC

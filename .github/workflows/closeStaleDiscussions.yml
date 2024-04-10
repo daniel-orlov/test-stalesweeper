@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Run StaleSweeper
-        uses: steffen-karlsson/stalesweeper@v1.1.0
+        uses: steffen-karlsson/stalesweeper@v1.1.1
         with:
           days-before-close: '1'
           repo-token: ${{ secrets.GITHUB_TOKEN }}
